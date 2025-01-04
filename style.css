@@ -1,0 +1,117 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --gray: hsl(0, 0%, 42%);
+    --black: hsl(0, 0%, 7%);
+    font-size: 2.4vh;
+}
+
+*, *::before, *,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Figtree, sans-serif;
+  }
+
+body {
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+.container {
+    display: grid;
+    row-gap: 2vh;
+    place-items: center;
+}
+
+.empty {
+    height: 6vh;
+}
+
+.whitecard {
+    background-color: white; 
+    box-shadow: 2vh 2vh; 
+    border: 1px solid var(--black); 
+    border-radius: 5%;
+    width: 50vh;
+    height: 75vh;
+    margin: auto;
+    display: grid;
+}
+
+img {
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+.tag {
+    background-color: var(--yellow);
+    border-radius: 0.5vh;
+    text-align: center;
+    width: 15vh;
+    margin: auto;
+    margin-top: 3vh;
+    margin-left: 2.5vh;
+    padding: 1%;
+    text-wrap: pretty;
+}
+
+.tag:hover, #greg:hover, .avatar:hover, #title:hover, .attribution a:hover {cursor: pointer;}
+
+.date {
+    color: var(--black);
+    margin-left: 2.5vh;
+}
+
+.blacktext {
+    color: var(--black);
+    margin-left: 2.5vh;
+}
+
+#title:hover {
+    color: var(--yellow); 
+    transform: scale(1.05, 1.05);
+    transition-duration: 0.1s;
+}
+
+.graytext {
+    color: var(--gray);
+    margin-left: 2.5vh;
+    width: 100%;
+    text-wrap: pretty;
+}
+
+#author-row {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    margin-left: 1vh;
+    align-items: center;
+}
+
+.avatar {
+    width: auto;
+    height: 2em;
+}
+
+#greg {
+    font-weight: 800;
+    width: 50%;
+    height: 2em;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    margin:auto;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
