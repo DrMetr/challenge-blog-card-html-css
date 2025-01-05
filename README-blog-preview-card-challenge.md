@@ -14,6 +14,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgement](#acknowledgement)
 
 
 ## Overview
@@ -61,6 +62,7 @@ Another issue I faced was aligning the avatar and the author's name. Float and f
 ```
 I didn't manage to make the site responsive according to the challenge's design and prioritised desktop design over mobile one. The result is responsive regardless but only to a certain degree.
 
+UPD: I made alternative solution using flex and taking a cue from Bhuvnesh Upadhayay (link in the acknowledgement). I put the css file in the repository for future reference and just so people know I did it.
 ### Continued development
 
 I struggle the most with float, flex and grid. Becoming more confident with those would reduce my fear of responsive webpage design.
@@ -73,3 +75,10 @@ I struggle the most with float, flex and grid. Becoming more confident with thos
 
 - Website - [DrMetr](https://github.com/DrMetr)
 - Frontend Mentor - [@DrMetr](https://www.frontendmentor.io/profile/DrMetr)
+<<<<<<< Updated upstream
+=======
+
+## Acknowledgement
+
+- Eloquent solution-maker to take cue from [Bhuvnesh Upadhayay](https://www.frontendmentor.io/profile/bhuvi819381)
+>>>>>>> Stashed changes
